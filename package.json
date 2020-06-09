@@ -75,7 +75,7 @@
         "react-google-maps": "^9.4.5",
         "react-highcharts": "^16.0.2",
         "react-highlight": "^0.12.0",
-        "react-i18next": "^10.2.0",
+        "react-i18next": "^9.0.9",
         "react-images": "^0.5.19",
         "react-input-mask": "^2.0.4",
         "react-moment": "^0.9.7",
