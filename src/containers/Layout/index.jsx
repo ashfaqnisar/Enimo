@@ -77,17 +77,6 @@ class Layout extends Component {
 
         return (
             <div className={layoutClass}>
-                <Customizer
-                    customizer={customizer}
-                    sidebar={sidebar}
-                    theme={theme}
-                    changeSidebarVisibility={this.changeSidebarVisibility}
-                    toggleTopNavigation={this.toggleTopNavigation}
-                    changeToDark={this.changeToDark}
-                    changeToLight={this.changeToLight}
-                    changeBorderRadius={this.changeBorderRadius}
-                    toggleBoxShadow={this.toggleBoxShadow}
-                />
                 {this.props.customizer.topNavigation ?
                     <TopbarWithNavigation
                         changeMobileSidebarVisibility={this.changeMobileSidebarVisibility}
